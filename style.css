@@ -2,6 +2,7 @@
 
 body {
     background-color: #cee3f0;
+    font-style: bold;
 }
 
 .btn {
@@ -13,7 +14,6 @@ background: #cee3f0;
 box-shadow:  20px 20px 40px #abbcc7,
              -20px -20px 40px #f1ffff;
     font-size: 20px;
-    font-style: bold;
     transition: background-color 0.3s;
 }
 
