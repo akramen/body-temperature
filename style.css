@@ -1,3 +1,5 @@
+@media screen and (min-width: 481px) {
+
 body {
     background-color: #cee3f0;
 }
@@ -38,4 +40,52 @@ box-shadow:  10px 10px 20px #abbcc7,
 .result-area:hover {
     background-color: #e7f1f7;
     cursor: pointer;
+}
+
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #cee3f0;
+    }
+
+    .btn {
+        height: 150px;
+        width: 240px;
+        padding: 3%;
+        border: none;
+        border-radius: 39px;
+    background: #cee3f0;
+    box-shadow:  20px 20px 40px #abbcc7,
+                 -20px -20px 40px #f1ffff;
+        font-size: 20px;
+        font-style: bold;
+        transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #e7f1f7;
+        cursor: pointer;
+    }
+
+    .result-area{
+        padding: 3%;
+        height: 100px;
+        width: 190px;
+        border: none;
+        border-radius: 24px;
+    background: #cee3f0;
+    box-shadow:  10px 10px 20px #abbcc7,
+                 -10px -10px 20px #f1ffff;
+        font-size: 20px;
+        font-style: bold;
+        font-weight: 900;
+        transition: background-color 0.3s;
+    }
+
+    .result-area:hover {
+        background-color: #e7f1f7;
+        cursor: pointer;
+    }
 }
